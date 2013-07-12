@@ -26,6 +26,14 @@ CONFIGURATION
 3. Do not delete the [globals] line
 4. See http://selfoss.aditu.de/ for examples
 
+RUNNING ON RPI(Raspberry Pi)
+-------------
+
+1. Install php-cli, php-curl, php-gd, php-sqlite, git packages
+2. Clone repo ```git clone https://github.com/SSilence/selfoss.git --depth 1```
+3. Configure your install
+4. Start app with ```php -S 0.0.0.0:80 run.php```
+
 
 UPDATE
 ------
